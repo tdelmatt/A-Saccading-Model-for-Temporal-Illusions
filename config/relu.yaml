@@ -1,0 +1,13 @@
+TASK:
+    NAME: 'UNIFORMITY'
+    CHANNELS: 1
+MODEL:
+    SACCADE: 'constant' # apparently not relevant
+    FOV_FALLOFF: 0.0 # make it easier -- apparently not relevant
+    OBJECTIVES: ['autoencode'] # apparently not relevant (and next step doesn't seem much worse)
+    INCLUDE_PROPRIO: False
+    SENSORY_SIZE: 64
+    HIDDEN_SIZE: 64
+    REACTIVE: True
+TRAIN:
+    EPOCHS: 30

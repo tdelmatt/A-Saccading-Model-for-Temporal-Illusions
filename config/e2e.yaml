@@ -1,0 +1,11 @@
+TASK:
+    NAME: 'UNIFORMITY'
+    CHANNELS: 1
+MODEL:
+    SACCADE: 'walk'
+    OBJECTIVES: ['predictive_patch']
+    NOISED_SIGNAL: True
+    HIDDEN_SIZE: 512
+    ADAPTATION_LAYER: False
+TRAIN:
+    EPOCHS: 1000

@@ -1,0 +1,13 @@
+TASK:
+    NAME: 'UNIFORMITY'
+    CHANNELS: 1
+MODEL:
+    SACCADE: 'walk'
+    OBJECTIVES: ['autoencode']
+    NOISED_SIGNAL: True
+    FOURIER_PROPRIO: True
+    HIDDEN_SIZE: 512
+    WALK_PACE: 0.1
+TRAIN:
+    EPOCHS: 500
+    BATCH_SIZE: 128

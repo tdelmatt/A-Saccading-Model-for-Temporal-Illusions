@@ -1,0 +1,12 @@
+TASK:
+    NAME: 'UNIFORMITY'
+    CHANNELS: 1
+MODEL:
+    SACCADE: 'walk'
+    OBJECTIVES: ['predictive']
+    NOISED_SIGNAL: True
+
+    HIDDEN_SIZE: 128
+
+TRAIN:
+    EPOCHS: 30
